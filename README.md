@@ -8,7 +8,7 @@ A simple kinesis producer written in scala using the Java AWS KPL library.
   `docker-compose up`
 2. Once the kinesis is running execute the `TestSyncProducer.scala`
 
-## How to onsume message via CLI to test the producer?
+## How to Consume message via CLI to test the producer?
 1. Install aws cli on your machine e.g. brew install awscli (Only need to do once).
 2. Get the ShardId:
     ```bash 
